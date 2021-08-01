@@ -25,6 +25,7 @@ if (virpa == null) {
 
     document.getElementById("vpa").innerHTML = vpa;
     document.getElementById("qrcode").src = "../api?url=" + qr_string;
+    console.log(upilink);
     document.getElementById("upibtn").href = upilink;
 
 }
